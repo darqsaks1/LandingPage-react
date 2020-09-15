@@ -1,0 +1,12 @@
+.features-block {
+    width: 100%;
+}
+
+.work-block {
+    width: 100%;
+}
+
+.work-block img {
+    width: 90%;
+    border-radius: 20px;;
+}

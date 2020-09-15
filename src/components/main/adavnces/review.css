@@ -1,0 +1,76 @@
+.comments-section {
+ 
+    /* background: url(../images/bg-comments.jpg) center center / cover no-repeat fixed; */
+   
+  
+    color: #fff;
+
+  }
+ 
+  .row {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-md-4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mySlides {display:none;}
+  .comments-section .comment-block {
+     margin-bottom: 20px;
+    padding: 10px;
+    background-color: white;
+    color: black;
+    opacity: 0.9;
+    width: 90%;
+    margin: 0 30;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  .w-button-add {
+    color: red;
+  }
+  .comments-section .comment-block .avatar {
+    float: left;
+    width: 110px;
+    height: 110px;
+    opacity: 1;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 0 20px 0 0;
+  }
+  .comments-section .comment-block .avatar.avatar-01 {
+    background: url(../../../assets/images/otziv1.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .comments-section .comment-block .avatar.avatar-02 {
+    background: url(../../../assets/images/otziv2.jpeg) no-repeat center;
+    background-size: cover;
+  }
+  .comments-section .comment-block .avatar.avatar-03 {
+    background: url(../../../assets/images/otziv3.jpg) no-repeat center;
+    background-size: cover;
+  }
+  .comments-section .comment-block .user-name {
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 0;
+  }
+  .comments-section .comment-block .user-city {
+    font-size: 0.9em;
+    font-style: italic;
+  }
+  .comments-section .comment-block .user-comment {
+    line-height: 1.5;
+  }
+
+  .warring {
+     color: black;
+     font-size: 35px;
+     border-bottom: 2px solid black;
+  }

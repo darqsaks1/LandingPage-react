@@ -1,0 +1,59 @@
+.logo {
+  font-size: 3.4rem;
+  line-height: 1;
+ 
+  text-align: center;
+  background: linear-gradient(
+    45deg,
+    #9246f7,
+    #2610df,
+    #fe0181,
+    #5fc3f5,
+    #8874bf 40%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #9246f7,
+    #2610df,
+    #fe0181,
+    #5fc3f5,
+    #8874bf 90%
+  );
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  -webkit-mask-image: linear-gradient(
+    45deg,
+    #9246f7,
+    #2610df,
+    #fe0181,
+    #5fc3f5,
+    #8874bf 90%
+  );
+  -webkit-background-clip: text;
+}
+
+.header {
+  width: 100%;
+}
+
+.advances-block-list {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.advances-block {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: start;
+  font-size: 15px;
+  margin-left: 40px;
+}
+
+.text-header {
+  margin-left: 20px;
+}

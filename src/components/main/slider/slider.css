@@ -1,0 +1,30 @@
+.slder-slide  {
+    width: 100%;
+    height: 100%;
+ 
+}
+
+.slder-slide img {
+    width: 90%;
+    height: 300px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.slider-slide-2 {
+    margin-bottom: 20px;
+}
+
+.swiper-slider-1  {
+    margin-bottom: 40px;
+    border-bottom: 2px solid #8b71b5;
+}
+
+.swiper-button-prev, .swiper-button-next {
+    outline: none;
+}
+
+.swiper-button-next:after, .swiper-container-rtl .swiper-button-prev:after {
+    outline: none;
+}

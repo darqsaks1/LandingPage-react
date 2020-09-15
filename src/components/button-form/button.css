@@ -1,0 +1,72 @@
+.button_size-l {
+  height: 60px;
+  font-size: 1.4rem;
+  font-weight: 700;
+  width: 300px;
+}
+
+.button {
+
+  background: #8b71b5;
+  color: #fff;
+  border-radius: 15px;
+  text-align: center;
+  margin-top: 60px;
+  -webkit-box-shadow: 3px 2px 5px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 6px 2px rgba(0,0,0,0.75);
+box-shadow: 3px 2px 5px 2px rgba(0,0,0,0.75);
+
+  margin-bottom: 20px;
+}
+
+.price-block {
+  margin-top: 30px;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: #fff2e2;
+  border-top: 2px solid black;
+  width: auto;
+  height:350px;
+  border-radius: 5px;
+  background-image: url(../../assets/images/girlbg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.action-price  {
+  background:red;
+    font-size: 20px;
+   width: 100%;
+   color: white;
+   height: 40px;
+   font-weight: bold;
+   display:flex;
+   font-family: 'Jost', sans-serif;
+   align-items: center;
+   justify-content: center;
+   
+}
+
+.new-old-price {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  background-color: #fff2e2;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.flex-col {
+  display:flex;
+  background-color: #fff2e2;
+  flex-direction: column;
+}
+
+.num {
+
+  color: red;
+}
